@@ -17,6 +17,8 @@ public abstract class ProductMenu {
 
 	public abstract void ShowLabels();
 
+	public abstract void showComboxes();
+
 	public abstract void selectProduct(int USerType);
 
 	public void createProductList() {
@@ -32,3 +34,4 @@ public abstract class ProductMenu {
 	}
 
 }
+
